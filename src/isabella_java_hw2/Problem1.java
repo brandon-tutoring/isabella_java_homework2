@@ -52,7 +52,7 @@ public class Problem1 {
 				System.out.print("\nThe character is a number.");
 			}
 				
-			else {
+			else { 
 				System.out.print("\nThe characters is alphanumeric.");
 			}
 		}
