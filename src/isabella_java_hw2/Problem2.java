@@ -11,7 +11,7 @@ public class Problem2 {
 		// TODO Auto-generated method stub
 
 				List<String> card_nums = new ArrayList <>();
-				card_nums.add("A");
+				card_nums.add("A"); 
 				card_nums.add("2");
 				card_nums.add("3");
 				card_nums.add("4");
