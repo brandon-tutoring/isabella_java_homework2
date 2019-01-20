@@ -18,5 +18,5 @@ public class Problem2 {
 			System.out.print("Your card is the " + (random_computer_card) + " of " + random_suit + "s");
 
 	}
-}
+} 
 
