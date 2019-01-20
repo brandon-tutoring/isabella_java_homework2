@@ -1,3 +1,8 @@
+// compilation error on line 11
+// please make sure code compiles before submitting
+
+ // GRADE: 0/10
+
 package isabella_java_hw2;
 import java.util.List;
 import java.util.Arrays;
