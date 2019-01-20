@@ -1,3 +1,8 @@
+// LOTS of compilation errors (27 errors !)
+// please compile and run code before uploading to github
+
+// GRADE: 0/10
+
 package isabella_java_hw2;
 
 public class Problem3 {
