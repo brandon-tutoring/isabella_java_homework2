@@ -5,6 +5,8 @@
 
 package isabella_java_hw2;
 
+import java.util.Scanner;
+
 public class Problem4 {
 
 	public static void main(String[] args) {
