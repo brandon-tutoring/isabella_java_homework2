@@ -15,19 +15,19 @@ public class Problem3 {
 		System.out.println("(H)onest Olivia");
 		System.out.println("(C)heating Chelsea");
 		String input1 = input.nextLine();
-		byte[] choices = new byte["1" "2"];
+		String[] choices = {"1", "2"};
 		if(input1 == "h") {
-			Scanner input = new Scanner(System.in);
+			Scanner input2 = new Scanner(System.in);
 			System.out.println("Choose odd or even (type the number corresponding to your choice)");
 			System.out.println("1- Odds");
 			System.out.println("2- Evens");
-			String input2 = input.nextLine();
+			String input7 = input.nextLine();
 			
-			Scanner input = new Scanner(System.in);
+			Scanner input3 = new Scanner(System.in);
 			System.out.println("1.. 2.. 3... go! (How many fingers - 1 or 2)");
-			String input2 = input.nextLine();
-			new Random().nextbyte(choices));
-			String generatedString = new String(choices, Charset.forName("UTF-8"));
+			String input4 = input.nextLine();
+			java.util.Random random = new java.util.Random();
+			int generatedString = random.nextInt(choices.length);
 			System.out.println(generatedString);
 		}
 			
@@ -36,7 +36,7 @@ public class Problem3 {
 			System.out.println("please choose odds or evens");
 			String input2 = input.nextLine();
 			if(input2 == "odds"){
-				Scanner input = new Scanner(System.in);
+				Scanner input6 = new Scanner(System.in);
 				System.out.println("please enter your number");
 				String num_input = input.nextLine();
 				if(num_input == "1"){
@@ -54,9 +54,9 @@ public class Problem3 {
 				}	
 					
 			else if(input2 == "evens"){
-				Scanner input = new Scanner(System.in);
+				Scanner input5 = new Scanner(System.in);
 				System.out.println("please enter your number");
-				String num_input = input.nextLine();
+				String num_input1 = input.nextLine();
 			}
 				if(num_input == "1"){
 					System.out.println("Cheating computer cheats");
