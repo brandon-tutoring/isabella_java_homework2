@@ -1,3 +1,7 @@
+// code compiles but does not work (did not read directions and used scanner instead of charAt)
+// this is also problem 4 not problem 3
+// grade 1/10
+
 package isabella_java_hw2;
 
 import java.nio.charset.Charset;
@@ -7,6 +11,7 @@ import java.util.Scanner;
 public class Problem3 {
 
 	public static void main(String[] args) {
+		// remove this comment
 		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);

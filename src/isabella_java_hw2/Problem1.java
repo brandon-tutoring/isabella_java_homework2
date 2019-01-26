@@ -1,7 +1,5 @@
 // GRADE: 10/10 (A)
 
-package isabella_java_hw2;
-
 import java.util.Scanner;
 
 public class Problem1 {

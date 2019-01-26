@@ -1,7 +1,6 @@
-// compilation error on line 11
-// please make sure code compiles before submitting
-
- // GRADE: 0/10
+// code compiles but did not fix the issue from the lesson
+// output does not specify example output
+ // GRADE: 2/10
 
 package isabella_java_hw2;
 import java.util.List;
@@ -14,6 +13,8 @@ public class Problem2 {
 		
 			
 			String[] available_cards = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Queen", "King", "Jack", "Ace"};  
+			
+			// STILL HAVENT FIXED THIS ISSUE			
 			String[] suits = {"♠", "♥", "♦", "♣"};
 			System.out.println("Shuffling the deck!");
 			java.util.Random random = new java.util.Random();

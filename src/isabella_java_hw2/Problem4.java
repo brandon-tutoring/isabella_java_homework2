@@ -1,9 +1,6 @@
-// compilation error (did not import scanner class)
-// please don't submit code to github that does not compile/run
+// code compiles but does not run
 
-// GRADE: 0/10
-
-package isabella_java_hw2;
+// GRADE: 1/10
 
 import java.util.Scanner;
 
