@@ -1,4 +1,7 @@
-// GRADE: 10/10 (A)
+// GRADE: 9/10 (A)
+
+// SMALL BUG: what happens when you run with a string, and then with a number?  Consider switching to a while loop to avoid (should not call main() inside main function anyways)
+
 
 import java.util.Scanner;
 
