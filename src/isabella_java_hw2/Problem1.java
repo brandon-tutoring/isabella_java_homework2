@@ -2,7 +2,7 @@
 
 // SMALL BUG: what happens when you run with a string, and then with a number?  Consider switching to a while loop to avoid (should not call main() inside main function anyways)
 
-
+package isabella_java_hw2;
 import java.util.Scanner;
 
 public class Problem1 {
@@ -16,17 +16,22 @@ public class Problem1 {
 	    return true;
 	}
 	
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		/* Asks user for input and prints what it equals */
 		Scanner input = new Scanner(System.in);
-		System.out.println("Enter a unicode code point, and I'll print out a report");
-		String user_input = input.nextLine();
-					
-		if (isNumeric(user_input) == false) {
-			System.out.println("That is not a number, please enter a number and try again.");
-			main(args);
+		String user_input;
+		while (true) {
+			System.out.println("Enter a unicode code point, and I'll print out a report");
+			user_input = input.nextLine();
+						
+			if (!isNumeric(user_input)) {
+				System.out.println("That is not a number, please enter a number and try again.");
+				
+			} else {
+				break;
+			}
 		}
-		
 		int amount_int = Integer.parseInt(user_input);
 		char ch = (char) amount_int;	
 		System.out.print(user_input + " represents the character: '" + ch + "'");
